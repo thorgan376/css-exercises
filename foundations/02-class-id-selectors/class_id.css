@@ -1,0 +1,28 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 28px;
+}
+
+.class1{
+    background-color: #ffa7a7;
+}
+
+#id2 {
+    color: #0000ff;
+    font-size: 55px;
+}
+
+.cooler-class3 {
+    background-color: #ffa7a7;
+    font-size: 45px;
+}
+
+#id4 {
+    background-color: #80ff80;
+    font-size: 35px;
+    font-weight: 1000;
+}
+
+.class5 {
+    background-color: #ffa7a7;
+}
