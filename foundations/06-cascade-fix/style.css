@@ -1,23 +1,23 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
 }
-
+/* Grouping combinator */
 .para,
 .small-para {
   color: hsl(0, 0%, 0%);
-  font-weight: 800;
+  font-weight: bolder;
 }
 
-.small-para {
-  font-size: 14px;
-  font-weight: 800;
+.para.small-para {
+  font-size: 18px; 
+  /* this is useless */
 }
 
 .para {
-  font-size: 22px;
+  font-size: 28px;
 }
 
-.confirm {
+.button.confirm {
   background: green;
   color: white;
   font-weight: bold;
@@ -26,7 +26,14 @@ body {
 .button {
   background-color: rgb(255, 255, 255);
   color: rgb(0, 0, 0);
-  font-size: 20px;
+  font-size: 25px;
+  border-style: solid;
+  border-color: black;
+  padding: 2px 8px ;
+}
+
+.button.cancel {
+  font-weight: 350;
 }
 
 .child {
@@ -37,6 +44,11 @@ body {
 
 div.text {
   color: rgb(0, 0, 0);
-  font-size: 22px;
-  font-weight: 100;
+  font-size: 26px;
+  font-weight: lighter;
+}
+
+div.text .text.child {
+  font-size: 19px;
+  font-weight: bold;
 }
