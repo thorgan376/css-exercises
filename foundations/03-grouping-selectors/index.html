@@ -6,9 +6,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Grouping Selectors</title>
     <link rel="stylesheet" href="style.css">
+    <style>
+      #clickme, #noclickme {
+        font-size: 45px;
+        font-family: Arial, Helvetica, sans-serif;
+        border-radius: 0;
+        border-width: 4px;
+        border-color: black;
+      }
+
+      #clickme {
+        color: white;
+        background-color: black;
+        
+      }
+
+      #noclickme {
+        color: black;
+        background-color: yellow;
+        
+      }
+    </style>
   </head>
   <body>
-    <button>Click Me!</button>
-    <button>No, Click Me!</button>
+    <button id="clickme">Click Me!</button>
+    <button id="noclickme">No, Click Me!</button>
   </body>
 </html>
